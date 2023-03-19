@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    /*
+    background-image: url(../img/background-natal.png);
+    background-size: contain;
+    transition: 1.5s;
+    */
+     
+    background: rgb(70,62,62);
+    background: linear-gradient(0deg, rgba(70,62,62,1) 29%, rgba(169,143,113,1) 68%);
+    color: white;
+        
+}
+
+.avatar {
+    width: 180px;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    text-shadow: 2px 2px 3px rgb(48, 48, 48);
+    }
+h2 {
+    font-size: 25px;
+    color: rgb(255, 255, 199);
+    text-align: center;
+    margin: 10px 0;
+}
+
+h3 {
+    font-size: 25px;
+    color: rgb(255, 255, 199);
+    text-align: center;
+    margin: 10px 0;
+    
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0;
+    
+}
+
+.social img {
+    width: 50px;
+    margin: 10px;
+}
+
+
+.container {
+    margin: 20px;
+    list-style: none;
+}
+
+.link-list {
+    display: block;
+    background: rgb(241, 241, 213);
+    padding: 15px 20px;
+    width: auto;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #3e2e0c;
+    font-weight: bold;
+    
+}
+
+.link-list li {
+    margin: 10px 20px;
+}
+
+.contato a {
+    display: block;
+    background: rgb(241, 241, 213);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(36, 105, 255);
+    font-weight: bold;
+}
+.contato a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+        
+}
+
+.foto-cardapio div {
+    display: flex;
+    width: 100%;
+      
+    
+}
+
+.foto-bolo {
+    width: 50%;
+    padding: 2px;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgb(77, 77, 77);
+    
+}
+
+footer {
+    background: rgb(11, 111, 23);
+    text-align: center;
+    padding: 10px;
+}
+
+

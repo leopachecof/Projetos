@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height:auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../img/background-leotech.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1.5s;
+    /*
+    background: rgba(54, 77, 204, 0.038);
+    background: linear-gradient(180deg, rgb(0, 162, 255) 0%, rgb(17, 17, 30) 100%);
+    */
+    color: white;
+        
+}
+
+.avatar {
+    width: 80px;
+    border-radius: 50px;
+    border: 3px solid white;
+    box-shadow: 0 0 20px white;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    font-size: 16px;
+    
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 20px 0;
+}
+
+.social img {
+    width: 33px;
+}
+
+.link-list {
+    list-style: none;
+}
+
+.link-list li {
+    margin: 10px 20px;
+}
+
+.link-list li a {
+    display: block;
+    background: rgb(247, 246, 246);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: rgb(11, 46, 247);
+    font-weight: bold;
+
+}
+
+.link-list li a span {
+    color: grey;
+    display: block;
+    margin-top: 10px;
+}
+.footer {
+    background: rgb(212,212,212);
+    background: linear-gradient(21deg, rgba(212,212,212,1) 0%, rgba(175,175,176,1) 100%);
+    text-align: center;
+    padding: 10px;
+}
